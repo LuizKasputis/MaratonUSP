@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int conta(int n1, int n2){
+	int a1 , a2;
+	printf("n1 = %d , n2 = %d \n", n1, n2);
+	a1 = abs(n1-n2);
+
+	a2 = n1 + abs(n2-9);
+	
+
+	return min(a1,a2);
+	
+}
+
+int main (){
+	int n;
+	string s1, s2;
+
+	cin >> n;
+	cin >> s1 >> s2;
+
+	int cont = 0;
+
+	for(int i = 0 ; i < n ; i++)
+		cont += conta(s1[i], s2[i]);
+
+
+	printf("%d\n", cont);
+}
