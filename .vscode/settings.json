@@ -17,6 +17,8 @@
         "utility": "cpp",
         "variant": "cpp",
         "map": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp"
     }
 }
