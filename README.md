@@ -1,2 +1,2 @@
 # MaratonUSP
-Exercícios, contest e estruturas de dados 
+Exercícios listados, contest e estruturas de dados
